@@ -64,8 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_initialPhrase',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            TextButton(
-                onPressed: _phraseGenerate, child: Text("Gerar nova frase"))
+            TextButton(onPressed: _phraseGenerate, child: Text("Nova frase"))
           ],
         ),
       ),
